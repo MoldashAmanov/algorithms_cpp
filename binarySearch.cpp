@@ -13,3 +13,13 @@ int binarySearch(const std::vector<int>& arr, int target)
     }
     return -1; // Не найдено
 }
+
+
+// Пример
+int main()
+{
+    std::vector<int> arr{1, 3, 5, 7, 9, 11};
+    std::cout << binarySearch(arr, 7) << "\n";
+
+    return 0;
+}
